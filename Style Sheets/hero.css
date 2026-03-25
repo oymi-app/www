@@ -2,7 +2,9 @@
 .hero {
     margin-top: var(--nav-height);
     padding: 80px 0 40px;
-    background-color: var(--bg-primary);
+    /* Single source for hero band + phone “empty screen” fill */
+    --hero-surface: var(--bg-primary);
+    background-color: var(--hero-surface);
     text-align: center;
     position: relative;
     overflow: visible;
@@ -17,9 +19,17 @@
 }
 
 .app-icon {
+    display: inline-block;
     width: 100px;
     height: 100px;
     filter:drop-shadow(0 2px 5px rgba(0, 0, 0, 0.4));
+}
+
+.app-icon img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .app-name {
@@ -71,13 +81,37 @@
     display: block;
 }
 
+.hero-device-stack {
+    position: relative;
+    display: block;
+    width: 100%;
+    line-height: 0;
+}
+
+/* Fills the transparent display area so only the device PNG reads as frame + island. */
+.hero-device-plate {
+    position: absolute;
+    z-index: 1;
+    left: 2.65625%;
+    top: 6.2766%;
+    width: 89.2708%;
+    height: 87.4468%;
+    background-color: var(--hero-surface);
+    border-radius: 10.35%;
+    pointer-events: none;
+}
+
 .hero-device {
     position: relative;
     z-index: 2;
+    display: block;
 }
 
 .hero-device img {
     display: block;
+    width: 100%;
+    height: auto;
+    vertical-align: top;
 }
 
 /* Responsive Design */

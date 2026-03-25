@@ -102,6 +102,9 @@
     left: 17px;
     position: absolute;
     z-index: 2;
+    background-color: var(--bg-primary);
+    border-radius: 42px;
+    pointer-events: none;
 }
 
 .iphone-hardware {
@@ -158,6 +161,7 @@
         --s-height: 461px;
         top: 11px;
         left: 12px;
+        border-radius: 30px;
     }
 
     .iphone-shadow {
@@ -187,6 +191,7 @@
         --s-height: 344px;
         top: 8px;
         left: 9px;
+        border-radius: 22px;
     }
 
     .iphone-shadow {

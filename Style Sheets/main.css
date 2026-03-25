@@ -69,10 +69,17 @@ body {
 }
 
 .nav-logo {
-    font-size: 21px;
-    font-weight: 600;
-    color: var(--text-primary);
+    display: flex;
+    align-items: center;
     text-decoration: none;
+    color: var(--text-primary);
+}
+
+.nav-logo img {
+    display: block;
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
 }
 
 .nav-links {
