@@ -1,0 +1,43 @@
+/* Privacy Page Specific Styles */
+
+/* Privacy-specific list item color */
+.legal-content li:before {
+    color: #667eea;
+}
+
+/* Certification Box */
+.certification-box {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    border-radius: 12px;
+    padding: 32px;
+    color: white;
+    margin: 48px 0;
+    text-align: center;
+}
+
+.certification-box h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: white;
+}
+
+.certification-box p {
+    color: white;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+/* Privacy Badges */
+.privacy-badge {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}

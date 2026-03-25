@@ -1,0 +1,10 @@
+title: OYMI - Voice Journaling App
+description: Speak your thoughts, gain clarity. OYMI captures and transcribes your reflections instantly — no typing required.
+url: "https://voicediary.app"
+baseurl: ""
+
+markdown: kramdown
+
+exclude:
+  - README.md
+  - feature_img_resizer.sh
