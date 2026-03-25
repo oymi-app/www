@@ -12,8 +12,9 @@ scripts:
 <section class="hero">
     <div class="hero-content">
         <picture class="app-icon">
-            <source srcset="Images/logo.png, Images/logo@2x.png 2x">
-            <img src="Images/logo.png" alt="">
+            <source media="(max-width: 734px)" srcset="/assets/branding/oymi-mark-hero-sm-80.png, /assets/branding/oymi-mark-hero-sm-160.png 2x, /assets/branding/oymi-mark-hero-sm-240.png 3x">
+            <source srcset="/assets/branding/oymi-mark-hero-100.png, /assets/branding/oymi-mark-hero-200.png 2x, /assets/branding/oymi-mark-hero-300.png 3x">
+            <img src="/assets/branding/oymi-mark-hero-100.png" alt="" width="100" height="100" decoding="async">
         </picture>
         <h3 class="app-name font-semibold">OYMI</h3>
         <h1>Get it out of your head.</h1>
@@ -30,12 +31,15 @@ scripts:
                 <source srcset="Images/hero/hero_img_shadow_large.png, Images/hero/hero_img_shadow_large@2x.png 2x" media="(min-width:0px)">
                 <img src="Images/hero/hero_img_shadow_large.png" alt="">
             </picture>
-            <picture class="hero-device">
-                <source srcset="Images/hero/hero_img_small.png, Images/hero/hero_img_small@2x.png 2x" media="(max-width:734px)">
-                <source srcset="Images/hero/hero_img_medium.png, Images/hero/hero_img_medium@2x.png 2x" media="(max-width:1068px)">
-                <source srcset="Images/hero/hero_img_large.png, Images/hero/hero_img_large@2x.png 2x" media="(min-width:0px)">
-                <img src="Images/hero/hero_img_large.png" alt="OYMI app on iPhone">
-            </picture>
+            <div class="hero-device-stack">
+                <div class="hero-device-plate" aria-hidden="true"></div>
+                <picture class="hero-device">
+                    <source srcset="Images/hero/hero_img_small.png, Images/hero/hero_img_small@2x.png 2x" media="(max-width:734px)">
+                    <source srcset="Images/hero/hero_img_medium.png, Images/hero/hero_img_medium@2x.png 2x" media="(max-width:1068px)">
+                    <source srcset="Images/hero/hero_img_large.png, Images/hero/hero_img_large@2x.png 2x" media="(min-width:0px)">
+                    <img src="Images/hero/hero_img_large.png" alt="" width="960" height="470" decoding="async">
+                </picture>
+            </div>
         </div>
     </div>
 </section>
@@ -55,12 +59,7 @@ scripts:
                             <source srcset="Images/bezels/shadow_large.png, Images/bezels/shadow_large@2x.png 2x" media="(min-width:0px)">
                             <img src="Images/bezels/shadow_large.png" alt="">
                         </picture>
-                        <picture class="iphone-screen">
-                            <source srcset="Images/features/feature_record_small.png, Images/features/feature_record_small@2x.png 2x" media="(max-width:734px)">
-                            <source srcset="Images/features/feature_record_medium.png, Images/features/feature_record_medium@2x.png 2x" media="(max-width:1068px)">
-                            <source srcset="Images/features/feature_record_large.png, Images/features/feature_record_large@2x.png 2x" media="(min-width:0px)">
-                            <img src="Images/bezels/shadow_large.png" alt="Voice recording screen in OYMI">
-                        </picture>
+                        <div class="iphone-screen" aria-hidden="true"></div>
                         <picture class="iphone-hardware">
                             <source srcset="Images/bezels/bezel_small.png, Images/bezels/bezel_small@2x.png 2x" media="(max-width:734px)">
                             <source srcset="Images/bezels/bezel_medium.png, Images/bezels/bezel_medium@2x.png 2x" media="(max-width:1068px)">
@@ -84,12 +83,7 @@ scripts:
                             <source srcset="Images/bezels/shadow_large.png, Images/bezels/shadow_large@2x.png 2x" media="(min-width:0px)">
                             <img src="Images/bezels/shadow_large.png" alt="">
                         </picture>
-                        <picture class="iphone-screen">
-                            <source srcset="Images/features/feature_insight_small.png, Images/features/feature_insight_small@2x.png 2x" media="(max-width:734px)">
-                            <source srcset="Images/features/feature_insight_medium.png, Images/features/feature_insight_medium@2x.png 2x" media="(max-width:1068px)">
-                            <source srcset="Images/features/feature_insight_large.png, Images/features/feature_insight_large@2x.png 2x" media="(min-width:0px)">
-                            <img src="Images/bezels/shadow_large.png" alt="Voice transcription in OYMI">
-                        </picture>
+                        <div class="iphone-screen" aria-hidden="true"></div>
                         <picture class="iphone-hardware">
                             <source srcset="Images/bezels/bezel_small.png, Images/bezels/bezel_small@2x.png 2x" media="(max-width:734px)">
                             <source srcset="Images/bezels/bezel_medium.png, Images/bezels/bezel_medium@2x.png 2x" media="(max-width:1068px)">
@@ -113,12 +107,7 @@ scripts:
                             <source srcset="Images/bezels/shadow_large.png, Images/bezels/shadow_large@2x.png 2x" media="(min-width:0px)">
                             <img src="Images/bezels/shadow_large.png" alt="">
                         </picture>
-                        <picture class="iphone-screen">
-                            <source srcset="Images/features/feature_privacy_small.png, Images/features/feature_privacy_small@2x.png 2x" media="(max-width:734px)">
-                            <source srcset="Images/features/feature_privacy_medium.png, Images/features/feature_privacy_medium@2x.png 2x" media="(max-width:1068px)">
-                            <source srcset="Images/features/feature_privacy_large.png, Images/features/feature_privacy_large@2x.png 2x" media="(min-width:0px)">
-                            <img src="Images/bezels/shadow_large.png" alt="Privacy settings in OYMI">
-                        </picture>
+                        <div class="iphone-screen" aria-hidden="true"></div>
                         <picture class="iphone-hardware">
                             <source srcset="Images/bezels/bezel_small.png, Images/bezels/bezel_small@2x.png 2x" media="(max-width:734px)">
                             <source srcset="Images/bezels/bezel_medium.png, Images/bezels/bezel_medium@2x.png 2x" media="(max-width:1068px)">
@@ -142,12 +131,7 @@ scripts:
                             <source srcset="Images/bezels/shadow_large.png, Images/bezels/shadow_large@2x.png 2x" media="(min-width:0px)">
                             <img src="Images/bezels/shadow_large.png" alt="">
                         </picture>
-                        <picture class="iphone-screen">
-                            <source srcset="Images/features/feature_entries_small.png, Images/features/feature_entries_small@2x.png 2x" media="(max-width:734px)">
-                            <source srcset="Images/features/feature_entries_medium.png, Images/features/feature_entries_medium@2x.png 2x" media="(max-width:1068px)">
-                            <source srcset="Images/features/feature_entries_large.png, Images/features/feature_entries_large@2x.png 2x" media="(min-width:0px)">
-                            <img src="Images/bezels/shadow_large.png" alt="Past journal entries in OYMI">
-                        </picture>
+                        <div class="iphone-screen" aria-hidden="true"></div>
                         <picture class="iphone-hardware">
                             <source srcset="Images/bezels/bezel_small.png, Images/bezels/bezel_small@2x.png 2x" media="(max-width:734px)">
                             <source srcset="Images/bezels/bezel_medium.png, Images/bezels/bezel_medium@2x.png 2x" media="(max-width:1068px)">
