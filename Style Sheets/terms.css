@@ -1,0 +1,61 @@
+/* Terms Page Specific Styles */
+
+/* Terms-specific list item color */
+.legal-content li:before {
+    color: #764ba2;
+}
+
+/* Warning and Info Boxes */
+.warning-box {
+    background: #fef2f2;
+    border: 2px solid #fecaca;
+    border-radius: 8px;
+    padding: 24px;
+    margin: 24px 0;
+}
+
+.warning-box h4 {
+    color: #dc2626;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.warning-box p {
+    color: #7f1d1d;
+    margin-bottom: 12px;
+}
+
+.info-box {
+    background: #f0f9ff;
+    border: 2px solid #bfdbfe;
+    border-radius: 8px;
+    padding: 32px;
+    margin: 32px 0;
+    text-align: center;
+}
+
+.info-box h3 {
+    color: #1e40af;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.info-box p {
+    color: #1e3a8a;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* License Badges */
+.license-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 4px;
+}
