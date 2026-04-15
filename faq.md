@@ -1,7 +1,7 @@
 ---
 layout: default
 title: FAQ - OYMI
-description: Frequently asked questions about OYMI - Voice Journaling App
+description: Frequently asked questions about OYMI
 additional_css:
   - common.css
   - faq.css
